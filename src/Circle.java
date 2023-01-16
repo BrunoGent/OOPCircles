@@ -8,7 +8,7 @@ public class Circle {
         this.color = color;
     }
 
-    public double getArea(){ return (radius*radius)*3.14;}
+    public double getArea(){ return (radius*radius)*Math.PI;}
 
     public double getRadius(){return radius;}
 
